@@ -23,7 +23,8 @@ Deep learning (also known as deep structured learning or hierarchical learning) 
 > Large-scale automatic speech recognition is the first and most convincing successful case of deep learning.
 
  ####  Image recognition
- 
+>
  ####  Visual art processing
- 
+>
  ####  Natural language processing 
+>
