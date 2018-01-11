@@ -9,6 +9,7 @@ Deep learning (also known as deep structured learning or hierarchical learning) 
 ### _Algorithms_
 
  #### - Deep Neural Networks (DNN)
-       A deep neural network is an ANN with multiple hidden layers between the input and output layers. Similar to shallow ANNs, DNNs can model complex non-linear replationshops. DNN architectures generate compositional models where the object is expressed as a layerd composition of primitives.
+ A deep neural network is an ANN with multiple hidden layers between the input and output layers. Similar to shallow ANNs, DNNs can model complex non-linear replationshops. DNN architectures generate compositional models where the object is expressed as a layerd composition of primitives.
        
+ #### - 
        
