@@ -6,3 +6,7 @@ Deep learning (also known as deep structured learning or hierarchical learning) 
 > - Learn in supervised or unsupervised manners
 > - Learn multiple levels of representations that correspond to different levels of abstraction; the levles form a hierarchy of conceps.
 
+### _Algorithms_
+
+ - Deep Neural Networks (DNN)
+
