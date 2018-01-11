@@ -22,6 +22,14 @@
  ####  Automatic speech recognition
  > Large-scale automatic speech recognition is the first and most convincing successful case of deep learning.
  
+ Method | PER (%)
+ --- | ---
+ Randomly Initialized RNN | 26.1
+ Convoulutional DNN | 20.0
+ Monophone DBN-DNN | 22.4
+ Monophone Randomly Initialized DNN | 23.4
+ Bayesian Triphone GMM-HMM | 25.6
+ 
  ####  Image recognition
  > A common evaluation set for image classification is the MNIST database data set. MNIST is composed of handwritten digits and includes 60,000 training examples and 10,000 test examples.
  > Deep learning-based image recognition has become "superhuman", producing more accurate results than human contestants.
