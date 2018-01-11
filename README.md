@@ -1,4 +1,4 @@
- ## _DeepLearning_basic_
+
  
  Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms.
  
