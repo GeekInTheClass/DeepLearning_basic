@@ -7,7 +7,9 @@ var str: [String] = []
 for item in quiz1 {
     let item = item.uppercased()
     str.append(item)
-    
 }
 
 print(str)
+
+
+var str2 = quiz1.map{String($0).uppercased()}
