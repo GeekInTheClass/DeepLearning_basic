@@ -18,8 +18,12 @@ for item in array {
 
 print(item_mul)
 print(item_sum)
-
-
 print(item_mul / item_sum)
 
 
+var item_sum2 = array.reduce(0, {$0 + $1})
+var item_mul2 = array.reduce(1, {$0 * $1})
+
+print(item_mul)
+print(item_sum)
+print(item_mul / item_sum)
