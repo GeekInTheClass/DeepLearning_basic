@@ -1,5 +1,6 @@
 //: Playground - noun: a place where people can play
 // array에서 각각 숫자들을 곱한값을 각 숫자들을 더한 값으로 나누세요
+// 답은 let = ~~ 코드를 2번 사용하고 , 곱한값을 더한값으로 나눌때는 곱한값 / 합한값 을 이용해 주새요.
 
 import UIKit
 
@@ -20,8 +21,5 @@ print(item_sum)
 
 
 print(item_mul / item_sum)
-
-
-// code
 
 
