@@ -16,3 +16,7 @@ for item2 in str {
 }
 
 print(sum)
+
+
+var str2 = quiz2.filter{Int($0)%2==0}.reduce(0, {$0+$1})
+print("\(str2)")

@@ -12,3 +12,6 @@ for item in array {
         retArray1.append(item)
     }
 }
+
+var retArray2 = array.filter{Int($0)%3 == 0}
+print(retArray2)
