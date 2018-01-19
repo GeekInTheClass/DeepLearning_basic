@@ -1,14 +1,14 @@
 //
-//  ActorDetailViewController.swift
-//  classtest
+//  firstPdfViewController.swift
+//  SceneExample
 //
-//  Created by 방문사용자 on 2018. 1. 18..
-//  Copyright © 2018년 방문사용자. All rights reserved.
+//  Created by cscoi018 on 2018. 1. 19..
+//  Copyright © 2018년 seok. All rights reserved.
 //
 
 import UIKit
 
-class ActorDetailViewController: UIViewController {
+class firstPdfViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

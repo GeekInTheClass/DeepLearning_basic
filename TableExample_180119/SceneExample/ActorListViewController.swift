@@ -1,51 +1,84 @@
 //
-//  NOTETableViewController.swift
-//  MY CLASS TEST
+//  ActorListViewController.swift
+//  SceneExample
 //
-//  Created by 방문사용자 on 2018. 1. 18..
-//  Copyright © 2018년 방문사용자. All rights reserved.
+//  Created by cscoi018 on 2018. 1. 18..
+//  Copyright © 2018년 seok. All rights reserved.
 //
 
 import UIKit
 
-class NOTETableViewController: UITableViewController {
+class ActorListViewController: UITableViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 3
+        
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 3
     }
 
-    /*
+    
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        
+        
+        if indexPath.section == 0 {
+            let cell = tableView.dequeueReusableCell(withIdentifier:"Cell1", for: indexPath)
+            print("cellforRowAt \(indexPath.section) - \(indexPath.row)")
+            if(indexPath.row == 0){
+                cell.textLabel?.text = "Mathmatics 2017.03.01"
+            }else if(indexPath.row == 1){
+                cell.textLabel?.text = "Electronical Management 2015.11.21"
+            }else{
+                cell.textLabel?.text = "Computer Science 2011.06.23"
+            }
+            
         return cell
+            
+        }
+        else if indexPath.section == 1 {
+            let cell = tableView.dequeueReusableCell(withIdentifier:"Cell1", for: indexPath)
+            print("cellforRowAt \(indexPath.section) - \(indexPath.row)")
+            if(indexPath.row == 0){
+                cell.textLabel?.text = "Mathmatics 2017.03.01 (1) .mp3"
+            }else if(indexPath.row == 1){
+                cell.textLabel?.text = "Electronical Management 2015.11.21 (2) .mp3"
+            }else{
+                cell.textLabel?.text = "Computer Science 2011.06.23 (1) .mp3"
+            }
+            
+        return cell
+        }
+        
+        else  {
+            let cell = tableView.dequeueReusableCell(withIdentifier:"Cell1", for: indexPath)
+            print("cellforRowAt \(indexPath.section) - \(indexPath.row)")
+            cell.textLabel?.text = "MyCell \(indexPath.section) - \(indexPath.row)"
+           
+            
+        return cell
+        }
+        
     }
-    */
+
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section == 0 {
+            return "Documents"
+        }
+        else if section == 1 {
+            return "Audio"
+        }
+        else {
+            return "others"
+        }
+    }
+}
 
     /*
     // Override to support conditional editing of the table view.
@@ -92,4 +125,4 @@ class NOTETableViewController: UITableViewController {
     }
     */
 
-}
+
